@@ -1,0 +1,118 @@
+/* Основные стили для сайта с дополнительными улучшениями, если нужно */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Кастомизация навбара */
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Герой-секция */
+.hero-section {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    color: #212529;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Стили для формы */
+.contact-section form .form-control {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section form button {
+    background-color: #17a2b8;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section form button:hover {
+    background-color: #138496;
+}
+
+/* Footer стили */
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #ccc;
+}
+
+/* Настройки карусели */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Стили для карточек */
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .hero-section h2 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .contact-section form {
+        width: 90%;
+    }
+}
